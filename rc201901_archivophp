@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "c9ca244b-d243-438e-bd54-76d7acee0e52",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30174799"
+	},
+	"item": [
+		{
+			"name": "http://192.168.10.7:8080/subido.php",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "archivo",
+							"type": "file",
+							"src": "/C:/Users/LARCH/Desktop/RC201901.php.txt"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://192.168.1.209:8080/subido.php",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"209"
+					],
+					"port": "8080",
+					"path": [
+						"subido.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
